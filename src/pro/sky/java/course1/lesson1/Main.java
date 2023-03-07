@@ -15,14 +15,11 @@ public class Main {
         System.out.println(" Название " + book1.getTitle() + " Автор " + book1.getAuthor().getFirstName() + " "
                 + book1.getAuthor().getLastName() + " Год " + book1.getYear());
         book2.setYear(2015);
-        Book[] books = new Book[10];
-        books [4] = null;
-        for (int i = 0; i < books.length; i++) {
-            if (books[i] != null){}
-            System.out.println("books[i].getAuthor() = " + books[i].getAuthor());
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(author1.hashCode());
+        System.out.println(author2.hashCode());
 
-
-
-        }
     }
-}
+    }
+
